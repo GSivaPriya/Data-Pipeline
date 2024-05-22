@@ -18,7 +18,7 @@ python-dotenv is used to securely store the confidential variables (API keys)
 Sqlite3 for creating a database and a Sales_Table to store the final data created
 
 # Setting up Code Environment
-1. Create a python 3.12 virtual environment.
+1. Create a python 3.10 virtual environment.
 2. Create Environment variables to store your credentials:
     Weather API key with variable name WEATHER_API_KEY
 3. Install all the dependencies by running the command : pip install -r requirements.txt
@@ -32,10 +32,10 @@ Run the file "sales_data_pipeline.ipynb" using python sales_data_pipeline.ipynb
 To run the Docker container, first pull the image from Docker Hub:
 
 ```sh
-docker pull yourusername/sales_data_pipeline:latest
+docker pull sivapriyag/sales_data_pipeline:latest
 ```
 Then run the following command
 
-docker run -p 8888:8888 yourusername/sales_data_pipeline:latest
+docker run -p 8888:8888 sivapriyag/sales_data_pipeline:latest
 
  
