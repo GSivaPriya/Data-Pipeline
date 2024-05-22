@@ -1,6 +1,7 @@
+jupyter
+ipykernel
 pandas
 matplotlib
 seaborn
 requests
 python-dotenv
-sqlite3
