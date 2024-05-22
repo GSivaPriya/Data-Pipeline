@@ -24,4 +24,18 @@ Sqlite3 for creating a database and a Sales_Table to store the final data create
 3. Install all the dependencies by running the command : pip install -r requirements.txt
 
 # Code execution
-Run the file "sales_data_pipeline.ipynb" using python sales_data_pipeline.ipynb 
+Run the file "sales_data_pipeline.ipynb" using python sales_data_pipeline.ipynb
+
+# Alternate method
+## Running the Docker container
+
+To run the Docker container, first pull the image from Docker Hub:
+
+```sh
+docker pull yourusername/sales_data_pipeline:latest
+```
+Then run the following command
+
+docker run -p 8888:8888 yourusername/sales_data_pipeline:latest
+
+ 
